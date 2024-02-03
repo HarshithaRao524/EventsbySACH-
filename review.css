@@ -1,0 +1,126 @@
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles for navigation */
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+    height: 10vh;
+    padding: 2em;
+  }
+  
+  nav ul li {
+    display: inline;
+    font-size: x-large;
+    margin: 40px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  nav ul li a:hover{
+    color:darkmagenta;
+  }
+
+  .logo {
+    margin: 10;
+    padding: 10;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #f4f4f4;
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.footer{
+  height: 40px;
+  margin: 9px;
+  text-align: center;
+  padding: 1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Images/aboutBackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .review-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .existing-reviews {
+    margin-bottom: 20px;
+  }
+  
+  .write-review {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+  }
+  
+  .star-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label[for^="star"]::after {
+    margin: 0 5px;
+    cursor: pointer;
+    color: gold;
+  }
+  
+  label[for^="star"]:before {
+    content: '\2605'; /* Unicode character for a solid star */
+    font-size: 45px;
+    color: white; 
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

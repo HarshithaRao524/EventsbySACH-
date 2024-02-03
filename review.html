@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events by SACH!</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<style>
+  header {
+      background-image: url('Images/headerBackground.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 100px; 
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      color: #fff;
+      text-align: right;
+      align-self: left;
+      position: relative;
+      width: 100%;
+      justify-content: left;
+      top: 0;
+      z-index: 1000;
+  }
+
+  .logo {
+      width: 50px; 
+      margin-right: 10px; 
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+<img src="Images/Logo.png" alt="Your Logo" class="logo">
+  <nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="review.html">Review</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+</body>
+
+  <title>Event Management Reviews</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        .review-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .review {
+            border-bottom: 2px solid #ddd;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .review-img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .review-content {
+            flex: 1;
+        }
+
+        .review h3 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .review p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .review .rating {
+            color: #f39c12;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="write-review">
+            <h2>Write a Review</h2>
+            <form style="background-color: lightpink; padding: 20px;">
+              <h3>Your Review:</h3>
+              <textarea id="review-text" name="review-text" rows="4" required></textarea>
+
+              <h3>Rate Us:</h3>
+              <div class="star-rating">
+                <!-- Radio buttons for star ratings -->
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1"></label>
+              </div>
+      
+              <button type="submit">Submit Review</button>
+            </form>
+        </div>
+        
+
+        <div class="existing-reviews">
+            <h2>Customer Reviews</h2>
+        </div>
+
+    <div class="review-container">
+        <div class="review">
+            <img class="review-img" src="Images/user1 pic.jpg" alt="User 1">
+            <div class="review-content">
+                <h3>Amazing Event Planning!</h3>
+                <p>The event was upto mark. Definitely it was a enjoyable and memorable day, it had a spacious venue and had great assistance from your staff members. Glad to give you people this opportunity. </p>
+                <p class="rating">Rating: 5/5</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <img class="review-img" src="Images/user2 pic.png" alt="User 2">
+            <div class="review-content">
+                <h3>Exceeded Expectations</h3>
+                <p>The team was organized in their follow ups and consistently delivered quality service. I would recommend the company for anyone looking for a serious Event Management Service provider.</p>
+                <p class="rating">Rating: 4.5/5</p>
+            </div>
+        </div>
+
+        <!-- Add more reviews as needed -->
+
+    </div>
+
+    <footer class="footer">
+        <p> Copyright &copy; 2024 Events by SACH | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

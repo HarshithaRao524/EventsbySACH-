@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events by SACH!</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<style>
+  
+  header {
+      background-image: url('Images/headerBackground.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 100px; 
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      color: #fff;
+      text-align: right;
+      align-self: left;
+      position: relative;
+      width: 100%;
+      justify-content: left;
+      top: 0;
+      z-index: 1000;
+  }
+
+  .logo {
+      width: 50px; 
+      margin-right: 10px; 
+  }
+
+  footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+</style>
+</head>
+
+<header>
+<img src="Images/Logo.png" alt="Your Logo" class="logo">
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="review.html">Review</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<body>
+  
+  <div class="container">
+      <div class="form-container">
+          <h2>Contact Us</h2>
+          <form action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="mobile">Mobile Number:</label>
+              <input type="mobile" id="mobile" name="mobile" required>
+
+              <label for="whatsapp">Whatsapp Number:</label>
+              <input type="whatsapp" id="whatsapp" name="whatsapp" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <h3>How would you prefer us to contact you?</h3>
+              <form>
+                <label>
+                  <input type="radio" name="contact" value="Call">
+                  Call
+                </label>
+
+                <form>
+                  <label>
+                    <input type="radio" name="contact" value="whatsapp">
+                    Whatsapp
+                  </label>
+
+                  <form>
+                    <label>
+                      <input type="radio" name="contact" value="email">
+                      Email
+                    </label>
+
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+
+      <div class="social-media-container">
+          <h2>Follow Us</h2>
+          <ul>
+              <li><a href="#" target="_blank">Facebook</a></li>
+              <i data-feather="facebook"></i><br><br><br><hr>
+              <li><a href="#" target="_blank">Twitter</a></li>
+              <i data-feather="twitter"></i><br><br><br><hr>
+              <li><a href="#" target="_blank">Instagram</a></li>
+              <i data-feather="instagram"></i>
+          </ul>
+      </div>
+  </div>
+
+  <script>
+    feather.replace();
+    </script>
+
+</body>
+  <footer class="footer">
+    <p> Copyright &copy; 2024 Events by SACH | All Rights Reserved</p>
+</footer>
+</html>
